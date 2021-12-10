@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="nav-container">
             <div className="logo-container">
                 <Avatar src={icon} size="small" />
-                <Typography.Title level={2} className="logo"> <Link to="/"> Criptoverse</Link></Typography.Title>
+                <Typography.Title level={3} className="logo"> <Link to="/"> Crypto Global Stats</Link></Typography.Title>
                  <Button className="menu-control-container" onClick={() => setActiveMenu(!activeMenu)}> 
                     <MenuOutlined/>
                  </Button>
